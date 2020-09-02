@@ -1,0 +1,16 @@
+{
+  "extensionName": {
+    "message": "Search on Yandex.Market",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Highlight a text → right click → search on Yandex.Market.",
+    "description": "Description of the extension."
+  },
+
+  "contextTitle": {
+    "message": "Search Yandex.Market for",
+    "description": "Title of the context menu item."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "extensionName": {
+    "message": "Искать на Яндекс.Маркет",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Выделите текст → нажмите правую кнопку мыши → ищите на Яндекс.Маркет.",
+    "description": "Description of the extension."
+  },
+
+  "contextTitle": {
+    "message": "Искать на Яндекс.Маркет:",
+    "description": "Title of the context menu item."
+  }
+}
