@@ -1,7 +1,9 @@
 // * add context menu
+let title = browser.i18n.getMessage("contextTitle");
+
 browser.contextMenus.create({
     id: "yamarket",
-    title: "Search Yandex.Market for '%s'",
+    title: `${title} '%s'`,
     contexts: ["selection"],
 
     icons: {
