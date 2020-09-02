@@ -1,0 +1,1 @@
+# yamarket-search-firefox
