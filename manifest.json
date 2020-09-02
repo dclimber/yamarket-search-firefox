@@ -1,11 +1,12 @@
 {
 
   "manifest_version": 2,
-  "name": "Yandex.Market context menu search",
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription",
   "version": "1.0",
+  "author": "Dastan Abdrakhmanov",
 
-  "description": "Highlight a text → right click → search on Yandex.Market",
-
+  "homepage_url": "https://github.com/dclimber/yamarket-search-firefox",
   "icons": {
     "16": "icons/yamarket16.png",
     "32": "icons/yamarket32.png",
@@ -13,15 +14,16 @@
     "96": "icons/yamarket96.png"
   },
 
+  "permissions": [
+    "contextMenus"
+  ],
+
   "background": {
       "scripts": [
           "background.js"
       ]
   },
 
-  "permissions": [
-    "activeTab",
-    "contextMenus"
-  ]
+  "default_locale": "ru"
 
 }
